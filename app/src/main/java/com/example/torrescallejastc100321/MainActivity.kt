@@ -32,6 +32,7 @@ class MainActivity : AppCompatActivity() {
                 intent.putExtra("nombres", txtNombres.getText().toString())
                 intent.putExtra("apellidos", txtApellidos.getText().toString())
                 intent.putExtra("email", txtEmail.getText().toString())
+                startActivity(intent)
             }
 
         }
